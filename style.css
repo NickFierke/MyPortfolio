@@ -1,0 +1,185 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-color: rgb(97, 180, 212);
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+header h1 {
+    margin-left: 1rem;
+    margin-top: 7px;
+}
+
+.headerImg {
+    width: 100vw;
+    height: 20vh;
+    object-fit: cover;
+    margin: 0;
+}
+
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+section {
+    margin-top: 2rem
+}
+
+nav ul {
+    display: flex;
+    margin-top: 12px;
+    margin-right: 1rem;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+section .left {
+    width: 10%;
+    border-right: 2px solid black;
+}
+
+section .right {
+    width: 90%;
+    margin-left: 25px
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.projects div {
+    margin: 20px;
+}
+
+.box1 {
+    background-image: url(peaches.jpg);
+    background-position: center center;
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    text-align: center;
+   font-size: 200px;
+   font-weight: bold;
+   /* text color */
+    color: rgb(0, 0, 0);
+    
+
+}
+
+
+
+.box1:hover {
+    transform: scale(1.01);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.box2:hover {
+    transform: scale(1.01);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.box3:hover {
+    transform: scale(1.01);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.box4:hover {
+    transform: scale(1.01);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.box5:hover {
+    transform: scale(1.01);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.box2,
+.box3,
+.box4,
+.box5 {
+    background-image: url(peaches.jpg);
+    background-position: center center;
+    width: 45%;
+    height: 215px;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    font-size: 50px;
+    color: rgb(2, 2, 2);
+
+}
+
+#contact {
+    margin-bottom: 55px;
+}
+
+#contact .right ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact .right ul li {
+    list-style-type: none;
+    font-size: 21px;
+}
+
+#contact .right ul li a {
+    font-size: 21px;
+    text-decoration: none;
+    color: rgb(33, 147, 192);
+}
+
+footer {
+    background: rgb(97, 180, 212);
+    color: white;
+}
+
+footer h3 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#about {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
